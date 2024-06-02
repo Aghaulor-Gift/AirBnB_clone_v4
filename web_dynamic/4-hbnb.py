@@ -5,6 +5,10 @@ Flask App that integrates with AirBnB static HTML Template
 import uuid
 from flask import Flask, render_template, url_for
 from models import storage
+from models.state import State
+from models.users import Users
+from models.amenity import Amenity
+from models.place import Place
 
 
 # flask setup
